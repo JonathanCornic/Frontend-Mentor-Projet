@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+}
+.page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  border-radius: 9px;
+  height: 700px;
+  width: 1750px;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  justify-content: center;
+}
+.filtre {
+  background-color: hsl(277, 64%, 61%);
+  width: 50%;
+  border-radius: 0 9px 9px 0;
+  order: 2;
+}
+img {
+  border-radius: 0 9px 9px 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.gauche {
+  width: 50%;
+  color: hsl(0, 0%, 100%);
+  width: 50%;
+  order: 1;
+}
+h1 {
+  font-family: "Lexend Deca", sans-serif;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 20%;
+  font-size: 3.5em;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+p {
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 20%;
+  font-size: 1.6em;
+}
+.chiffre {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-left: 10%;
+  font-size: 2em;
+}
+.def {
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.mot2 {
+  margin-left: 20px;
+}
+.num3 {
+  margin-right: 20px;
+}
+.attribution {
+  color: hsl(0, 0%, 100%);
+  font-size: 11px;
+  text-align: center;
+  top: 750px;
+}
+.attribution a {
+  color: hsl(277, 64%, 61%);
+}
