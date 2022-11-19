@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  max-width: 1440px;
+  max-height: 1080px;
+}
+/* *******************************CONTENANT CENTRAL*************************** */
+#contenant {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 9px;
+  position: absolute;
+  width: 720px;
+  height: 540px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* **********************************IMAGE******************************* */
+img {
+  border-radius: 9px 0 0 9px;
+  width: 360px;
+}
+/* *********************************DESCRIPTION****************************** */
+.description {
+  border-radius: 0 9px 9px 0;
+
+  width: 360px;
+  height: 540px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.description h1 {
+  color: hsl(228, 12%, 48%);
+  font-size: medium;
+  margin: 15% 0 0 10%;
+}
+.description h2 {
+  font-family: "Fraunces", serif;
+  font-size: 2.2em;
+  margin: 10% 25% 0 10%;
+}
+p {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 20%;
+  line-height: 25px;
+}
+/* ******************************PRIX************************************** */
+.prixpromo {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-left: 10%;
+}
+.prixfort {
+  color: hsl(228, 12%, 48%);
+  font-family: "Fraunces", serif;
+  text-align: right;
+  margin-right: 30%;
+  margin-top: -8%;
+  position: relative;
+}
+.prixfort::before {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 1px;
+  background-color: hsl(228, 12%, 48%);
+  top: 9px;
+}
+/* **************************************BOUTTON****************************** */
+input {
+  font-family: "Fraunces", serif;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  width: 80%;
+  height: 10%;
+  border-radius: 9px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+/* *********************************LOGO************************************** */
+.material-symbols-outlined {
+  position: absolute;
+  right: 60%;
+  bottom: 70px;
+  color: hsl(0, 0%, 100%);
+}
+.attribution {
+  position: absolute;
+  bottom: -5%;
+  left: 25%;
+}
